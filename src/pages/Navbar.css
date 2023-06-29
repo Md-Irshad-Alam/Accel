@@ -1,0 +1,27 @@
+.Navbar, a {
+    position: relative;
+    display: flex;
+    /* justify-content: spac; */
+    align-items: center;
+    width: inherit;
+    text-decoration: none;
+    color: white;
+    height: 4rem;
+    flex-wrap: wrap-reverse;
+    
+  }
+  
+  .logo {
+    flex: 1;
+    margin-left: 5rem;
+  }
+  
+  .left-nav {
+    display: flex;
+    gap: 68px;
+    margin-right: 10rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    
+  }

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --text-20-bold: Poppins;
+  --heading-heading-3: Inter;
+
+  /* font sizes */
+  --text-20-bold-size: 1.25rem;
+  --text-12-regular-size: 0.75rem;
+  --heading-heading-3-size: 2rem;
+  --text-14-regular-size: 0.88rem;
+  --text-16-bold-size: 1rem;
+  --heading-heading-2-size: 2.5rem;
+  --heading-heading-1-size: 3rem;
+
+  /* Colors */
+  --default-white: #fff;
+  --color-black: #000;
+  --light: rgba(225, 166, 255, 0.4);
+  --ghost: #7a3199;
+
+  /* Gaps */
+  --gap-45xl: 4rem;
+  --gap-5xl: 1.5rem;
+  --gap-base: 1rem;
+  --gap-5xs: 0.5rem;
+  --gap-3xs: 0.63rem;
+  --gap-lgi: 1.19rem;
+
+  /* Paddings */
+  --padding-17xl: 2.25rem;
+  --padding-29xl: 3rem;
+  --padding-16xl: 2.19rem;
+  --padding-8xl: 1.69rem;
+  --padding-7xs: 0.38rem;
+  --padding-10xs: 0.19rem;
+  --padding-6xs: 0.44rem;
+  --padding-11xl: 1.88rem;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-37xl-5: 56.5px;
+  --br-8xs: 5px;
+}
+
+
+
+/* All media quary  */
+
+@media screen and (min-width: 420px ) and (max-width:720px) {
+  #course-parent{
+       display: flex;
+  }
+  
+  #content-parent{
+    display: flex;
+    flex-direction: column;
+  }
+  .course{
+    position: relative;
+    left: 5%;
+    right: 5%;
+  }
+  .group-first-image
+    {
+      position: absolute;
+      top: 0.88rem;
+      left: 48.31rem;
+      border-radius: var(--br-3xs);
+      width: 39.69rem;
+      height: 25.56rem;
+}
+  .group-sec-image{
+    position: absolute;
+    top: 8.88rem;
+    left: 45.31rem;
+    border-radius: var(--br-3xs);
+    width: 40.69rem;
+    height: 25.56rem
+  }
+  .frame-child{
+        /* width: 29rem; */
+        top: 8.62rem;
+        left: 46.38rem;
+        width: 49.38rem;
+        height: 28.13rem;
+  }
+  .pngwing-1-icon{
+    top: 40.62rem;
+    left: 65.38rem;
+    width: 29.38rem;
+    height: 26.13rem;
+  }
+  .dashboard-child {
+    width:max-content;
+    height: 200vh;
+}
+.frame-item {
+  width: 106%;
+}
+ 
+  #group-parent{
+  
+  }
+  .vector-parent{
+  
+  }
+  .frame-parent2{
+  
+  }
+  .vector-parent7{
+    
+  }
+}

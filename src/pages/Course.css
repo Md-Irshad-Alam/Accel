@@ -1,0 +1,17 @@
+
+
+
+@media screen and (min-width: 420px ) and (max-width:720px) {
+    .course-parent {
+        position: absolute;
+        top: 49.44rem;
+        left: 7rem;
+        width: 95vw;
+        height: 33.81rem;
+        /* overflow: hidden; */
+        font-size: var(--text-20-bold-size);
+        color: var(--color-black);
+        font-family: var(--text-20-bold);
+    }
+}
+
