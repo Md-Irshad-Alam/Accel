@@ -34,7 +34,10 @@ npm start
 ## Usage
 
 Once the development server is running, you can access the web page in your browser by navigating to `http://localhost:3000`. The page should automatically adapt to the device's screen size, providing a responsive experience.
-
+### Tech stack
+    React
+    TypeScript
+    Tailwind CSS 
 ## Components
 
 ### 1. Navbar
